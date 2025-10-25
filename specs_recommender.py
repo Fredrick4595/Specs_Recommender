@@ -5,7 +5,7 @@ cross_recommend = {
     "resolution": ["2560x1440", "1920x1080", "1080x720"],
     "graphics": ["High", "Medium", "Low"],
 }
-
+#just a comment to check git changes
 GAME_TYPES = ["AAA", "AA", "INDIE"]
 PC_SPECS = ["High", "Medium", "Low"]
 
@@ -34,6 +34,6 @@ def main():
 
     if st.button("Recommend"):
         st.success(recommend(pc, game))
-
+    
 if __name__ == "__main__":
     main()
